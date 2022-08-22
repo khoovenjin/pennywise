@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_6_10dp"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_24"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_money"
+        android:layout_width="@dimen/dimen_6_10dp"
+        android:layout_height="@dimen/dimen_6_10dp"
+        android:layout_marginTop="@dimen/dimen_3_10dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/money_desc"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_action" />
+
+    <TextView
+        android:id="@+id/tv_first_desc"
+        style="@style/WelcomeDescription"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:text="@string/first_page_desc" />
+
+</LinearLayout>
