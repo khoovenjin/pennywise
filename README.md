@@ -2,7 +2,7 @@
  💵 Pennywise 💵
 </h1>
 </br>
-Software Development Project Diploma
+Final Year Software Diploma Project
 </br>
 
 ## Supported Platforms 📱
